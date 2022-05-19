@@ -1,2 +1,4 @@
+vext
 requests>=2.25.1
-json>=2.0.9
+lz4>=4.0.0
+vext.gi
