@@ -1,11 +1,11 @@
 {
-    "selector.minimum_duration_seconds": 10,
-    "selector.scrap_period_seconds": 3,
+    "selector.minimum_duration_seconds": 7,
+    "selector.scrap_period_seconds": 2,
     "scrapper.youtube_url": "youtube.com",
     "scrapper.firefox.mozilla_path": ".mozilla/firefox",
     "client.adress": "localhost",
     "client.port": 8000,
     "command.auto_download_after": 20,
-    "command.ask_download_every": 4,
+    "command.ask_download_every": 1,
     "command.ask_at_first_encounter": true
 }

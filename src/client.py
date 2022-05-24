@@ -34,3 +34,10 @@ class DjangoClientC(AutoConfig):
         if payload is None:
             payload = {}
         return requests.post(self.Url+suffix, data=json.dumps(payload), headers=self.HEADERS)
+
+    def delete(self, suffix='', payload=None):
+        if suffix[0] != '/':
+            suffix = '/'+suffix
+        if payload is None:
+            payload = {}
+        return requests.delete(self.Url+suffix, data=json.dumps(payload), headers=self.HEADERS)
